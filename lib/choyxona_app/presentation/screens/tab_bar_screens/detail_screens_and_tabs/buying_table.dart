@@ -11,6 +11,7 @@ import 'package:untitled2/choyxona_app/presentation/widgets/navigators.dart';
 import '../../bottom_screens/borrom_search_page.dart';
 import '../../bottom_screens/home_page.dart';
 import '../../bottom_screens/location_page.dart';
+import '../../bottom_screens/profile/location_page.dart';
 import '../../bottom_screens/profile/profile_page.dart';
 
 class BuyingTable extends StatefulWidget {
@@ -59,7 +60,7 @@ class _BuyingTableState extends State<BuyingTable> {
                   label: ''),
               BottomNavigationBarItem(
                   backgroundColor: Colors.black,
-                  icon: Icon(CupertinoIcons.location_solid,color: _selectedIndex == 1 ? Colors.white : Colors.grey),
+                  icon: Icon(Icons.location_on_rounded,color: _selectedIndex == 1 ? Colors.white : Colors.grey),
                   label: ''),
               BottomNavigationBarItem(
                   backgroundColor: Colors.black,

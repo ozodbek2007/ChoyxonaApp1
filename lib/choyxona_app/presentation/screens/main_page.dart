@@ -5,6 +5,8 @@ import 'package:untitled2/choyxona_app/presentation/screens/bottom_screens/home_
 import 'package:untitled2/choyxona_app/presentation/screens/bottom_screens/location_page.dart';
 import 'package:untitled2/choyxona_app/presentation/screens/bottom_screens/profile/profile_page.dart';
 
+import 'bottom_screens/profile/location_page.dart';
+
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
@@ -49,7 +51,7 @@ class _MainPageState extends State<MainPage> {
                     label: ''),
                 BottomNavigationBarItem(
                     backgroundColor: Colors.black,
-                    icon: Icon(CupertinoIcons.location_solid,color: _selectedIndex == 1 ? Colors.white : Colors.grey),
+                    icon: Icon(Icons.location_on_rounded,color: _selectedIndex == 1 ? Colors.white : Colors.grey),
                     label: ''),
                 BottomNavigationBarItem(
                     backgroundColor: Colors.black,

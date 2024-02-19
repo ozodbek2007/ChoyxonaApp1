@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled2/choyxona_app/presentation/screens/bottom_screens/home_page.dart';
-import 'package:untitled2/choyxona_app/presentation/screens/main_page.dart';
-import 'package:untitled2/choyxona_app/presentation/screens/single_screens/welcome_page.dart';
+import 'choyxona_app/presentation/screens/bottom_screens/google_map/map_page.dart';
 
 
 void main(){
@@ -18,7 +16,7 @@ class ChoyxonaApp extends StatelessWidget {
         primaryColor: Color(0xfff4f4f4)
       ),
       debugShowCheckedModeBanner: false,
-      home: MainPage(),
+      home: MapPage(),
     );
   }
 }

@@ -12,6 +12,7 @@ import 'package:untitled2/choyxona_app/presentation/widgets/navigators.dart';
 import '../borrom_search_page.dart';
 import '../home_page.dart';
 import '../location_page.dart';
+import 'location_page.dart';
 
 class EditProfile extends StatefulWidget {
   const EditProfile({super.key});

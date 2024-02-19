@@ -9,6 +9,7 @@ import '../../../widgets/app_button.dart';
 import '../../bottom_screens/borrom_search_page.dart';
 import '../../bottom_screens/home_page.dart';
 import '../../bottom_screens/location_page.dart';
+import '../../bottom_screens/profile/location_page.dart';
 import '../../bottom_screens/profile/profile_page.dart';
 import 'buying_place.dart';
 import 'menu_screen.dart';
@@ -66,7 +67,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       label: ''),
                   BottomNavigationBarItem(
                       backgroundColor: Colors.black,
-                      icon: Icon(CupertinoIcons.location_solid,
+                      icon: Icon(Icons.location_on_rounded,
                           color:
                               _selectedIndex == 1 ? Colors.white : Colors.grey),
                       label: ''),
